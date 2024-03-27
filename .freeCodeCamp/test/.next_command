@@ -71,3 +71,15 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git status
 git add .
+git commit -m "certification code"
+git push
+git push
+git clone 'https://github.com/freeCodeCamp/learn-celestial-bodies-database.git/'
+git push
+git branch
+ls --color=auto
+cd learn-celestial-bodies-database
+ls --color=auto
+cd ..
+ls --color=auto
+psql --username=freecodecamp --dbname=postgres
